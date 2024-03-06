@@ -25,10 +25,8 @@ if app_mode == "Introduction":
   st.markdown("#### Wondering what is the relation between Health and Vehicle insurance?🤔")
   st.markdown("Our company is a Health insurance company who is looking to improve their revenue model by expanding into a new sector: Vehicle Insurance.")
   st.markdown("##### Objectives")
-  st.markdown("""
-              -- Analyse the potential customer base for Vehicle Insurance.
-              -- Predict the selling price of Vehicle Insurance that will benefit the revenue model most.
-              """)
+  st.markdown("- Analyse the potential customer base for Vehicle Insurance.")
+  st.markdown("- Predict the selling price of Vehicle Insurance that will benefit the revenue model most.")
 
   num = st.number_input('No. of Rows', 5, 10)
 
