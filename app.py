@@ -23,10 +23,9 @@ if app_mode == "Introduction":
   
   st.markdown("### Welcome to our Health Insurance Cross-Sell Dashboard!🏥🚗")
   st.markdown("#### Wondering what is the relation between Health and Vehicle insurance?🤔")
+  st.markdown("Our company is a Health insurance company who is looking to improve their revenue model by expanding into a new sector: Vehicle Insurance.")
   st.markdown("##### Objectives")
-  st.markdown("We aim to see what factors contributes to the purchase of Vehicle insurance.")
-  st.markdown("Through predictive analytics, our tool identifies customers who are most likely to purchase vehicle insurance data.")
-  st.markdown("Our dashboard aims to analyze factors like demographics, previous insurance history, and driving history to identify customers interested in vehicle insurance based on their health insurance.")
+  st.markdown("We aim analyse the existing data from health isnurance and identify the factors that will help predict the potential customers and price point for Vehicle insurance.")
 
   num = st.number_input('No. of Rows', 5, 10)
 
