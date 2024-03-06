@@ -25,9 +25,9 @@ if app_mode == "Introduction":
   st.markdown("##### Objectives")
   st.markdown("We aim to see what factors contributes to the purchase of Vehicle insurance.")
 
-  st.markdown("Welcome to our Health Insurance Cross-Sell Dashboard!")
-  st.markdown("Through predictive analytics, our tool identifies customers who are most likely to purchase vehicle insurance based on existing health insurance customers’ data.")
-  st.markdown("Our dashboard aims to analyze factors like demographics, past claims, driving history, and lifestyle to identify customers interested in vehicle insurance based on their health insurance. Our goal is to provide actionable insights to optimize marketing strategies and boost revenue.")
+  st.markdown("Welcome to our Health Insurance Cross-Sell Dashboard!🏠🚗")
+  st.markdown("Through predictive analytics, our tool identifies customers who are most likely to purchase vehicle insurance data.")
+  st.markdown("Our dashboard aims to analyze factors like demographics, previous insurance history, and driving history to identify customers interested in vehicle insurance based on their health insurance.")
 
   num = st.number_input('No. of Rows', 5, 10)
 
@@ -51,10 +51,10 @@ if app_mode == "Introduction":
   st.markdown("- How much does customer pay for premium (INR)")
   st.markdown("- How long has the customer been associated with the company")
 
-  st.markdown("From all these variables we wim to predict a price that the customers would be willing to pay for Vehicle Insurance.")
+  st.markdown("From all these variables we aim to predict a price that the customers would be willing to pay for Vehicle Insurance.")
   st.markdown("Analysing the relationships between such as 'Vehicle Damage' and 'Previously_insured' with 'Response' will help us define our target audience.")
-  st.markdown("Analysing relationships between 'Region' and 'Age' with 'Price' will help us define a price point.")
-
+  st.markdown("Similarly, analysing demographics such as 'Region', 'Gender', 'Age' and their relationships with 'Price' will help us define a price point.")
+  
   st.markdown("### Description of Data")
   st.dataframe(df.describe())
   st.markdown("Descriptions for all quantitative data **(rank and streams)** by:")
