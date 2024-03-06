@@ -21,7 +21,7 @@ if app_mode == "Introduction":
   st.image("veh.jpeg", use_column_width=True)
   st.title("Introduction")
   
-  st.markdown("### Welcome to our Health Insurance Cross-Sell Dashboard!🏠🚗")
+  st.markdown("### Welcome to our Health Insurance Cross-Sell Dashboard!🏥🚗")
   st.markdown("#### Wondering what is the relation between Health and Vehicle insurance?🤔")
   st.markdown("##### Objectives")
   st.markdown("We aim to see what factors contributes to the purchase of Vehicle insurance.")
