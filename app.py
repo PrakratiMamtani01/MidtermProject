@@ -14,7 +14,6 @@ st.sidebar.markdown("---")
 app_mode = st.sidebar.selectbox('Select Page',['Introduction','Visualization','Prediction'])
 
 df = pd.read_csv("train.csv")
-df = df.sample(100000)
 
 
 if app_mode == "Introduction":
